@@ -61,7 +61,7 @@ font-family: 'Roboto', sans-serif;
 #clr{background-color: #303030; height: 100%; opacity: 0.8;}
 .box{height: 45em; width: 100%; }
 
-#splashPg {background-image: url("images/gym_barbells_desktop_1024x640_wallpaper-1088984.jpg"); background-repeat: no-repeat; background-position: center;  background-size: 100% 100%;}
+#splashPg {background-image: url("../images/20150719_094340.jpg"); background-repeat: no-repeat; background-position: center;  background-size: 100% 100%;}
 
 #about{width: 60em;  padding-top: 5rem; margin: auto;}
 #aboutCont {
