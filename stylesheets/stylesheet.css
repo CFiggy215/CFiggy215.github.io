@@ -144,10 +144,10 @@ opacity: 1.0; border: 1.8px solid #806f2d;    border-radius: 10px; color: #806f2
 
 
 .wrapper{width: 100%; height: 80rem;}
-#Bkg1{background:url(images/20150419_093341.jpg); background-position: center; }
-#Bkg2{background:url(images/2014-10-25 19.04.23.jpg); background-position: center; }
-#Bkg3{background:url(028.jpg); background-position: center; }
-#Bkg4{background:url(6a010536421793970c0133f2954631970b-800wi.jpg); background-position: center; }
+#Bkg1{background:url("../images/20150711_115937.jpg"); background-position: center; }
+#Bkg2{background:url("../images/20150711_115938.jpg"); background-position: center; }
+#Bkg3{background:url("../images/028.jpg"); background-position: center; }
+#Bkg4{background:url("../images/6a010536421793970c0133f2954631970b-800wi.jpg"); background-position: center; }
 #testCon{ 
 display: inline-block;
 margin: 0; 
