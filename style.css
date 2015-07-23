@@ -29,7 +29,7 @@ transition: opacity 500ms;
 transition: border-radius 250ms;
 }
 
-header{   padding-left: 9.5rem; margin: auto; width:100%; padding-top 1rem; background-color: #fff;}
+header{   padding-left: 9.5rem; margin: auto;  padding-top 1rem; background-color: #fff;}
 #link a:hover{opacity: 1.0; border: 1.8px solid #806f2d;    border-radius: 10px; color: #806f2d; line-spacing: .3em}
 
 #link a{/*background-color: #806f2d;*/ 
@@ -39,10 +39,16 @@ header{   padding-left: 9.5rem; margin: auto; width:100%; padding-top 1rem; back
     width: 100px; border: 1.8px solid #404040; font-family: 'Open Sans Condensed', sans-serif;  font-size: 1.2em;}
 .contact a{
 color: #fff;
-background-color: #806f2d;
+    background-image: url("images/email-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+background-color: #505050;
 border-radius: 50%;
 }
+.contact a:hover{
 
+    color: #fff;
+}
 
 /**********BODY***********/
 body{ -webkit-font-smoothing: antialiased; margin: 0;
@@ -145,13 +151,12 @@ opacity: 1.0; border: 1.8px solid #806f2d;    border-radius: 10px; color: #806f2
 .wrapper{width: 100%; height: 80rem;}
 #Bkg1{background:url(images/20150711_115937.jpg); background-position: center; }
 #Bkg2{background:url(images/20150711_115938.jpg); background-position: center; }
-#Bkg3{background:url(028.jpg); background-position: center; }
-#Bkg4{background:url(6a010536421793970c0133f2954631970b-800wi.jpg); background-position: center; }
+#Bkg3{background:url("images/box3imgsm.jpg"); background-position: center; }
+#Bkg4{background:url("images/box4imgsm.jpg"); background-position: center; }
 #testCon{ 
 display: inline-block;
 margin: 0; 
 padding-top: 0;
-/*background-color: #151515;*/
 width: 58%; 
 height: 45rem; 
 text-align: center; 
@@ -175,8 +180,8 @@ transition: opacity linear 400ms;
 #name{
 text-align: center;
 }
-#txtwrp{width:90%; margin: auto;   color: #fff; font-family: arial; text-align: center; letter-spacing: .1em;}
-section{margin-top: 200px; float: right; width: 41.8%;  height: 41%; display: block;}
+#txtwrp{width:80%; margin: auto;   color: #fff; font-family: arial; text-align: center; letter-spacing: .1em;}
+section{ display: inline-block; width: 32rem;  float: right; height: 41%; padding-top: 5rem; margin-right: 0;}
 }
 hr { 
     display: block;
@@ -188,8 +193,42 @@ hr {
     border-width: .2px; 
 }
 .frame{
-width: 100%;
 height: 100%;
 padding-left: 14%;
 padding-top: .3%;
+}
+
+#meal{
+float: left;
+padding-right: 7.5rem;
+    padding-left: 7.5rem;
+
+width: 30rem;
+heigh: 100%;
+}
+ol{margin-left: 0; padding-left: .2rem; border-radius: 15px; background-image: url("images/texture.jpg");}
+#meal li{
+    padding-top: .3rem;
+    text-align: center;
+margin: 0;
+display: block;
+height: 8rem;
+color: white;
+}
+
+#MW{
+padding-top: 3rem;
+width: 30rem;
+    display: inline-block;
+    float: left;
+     text-align: center;
+    margin-left: 5rem;
+}
+#Diet{
+height: 69.5rem;
+}
+
+#suppliment{
+background-color: red;
+
 }
