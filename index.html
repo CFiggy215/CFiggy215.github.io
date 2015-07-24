@@ -13,15 +13,19 @@
 </head>
 <body>
 
-
-
+<div class="main">
+<ul class="mobile_menu">
+<li>
+<button onclick="menu()" class="menu">Menu</button>   
+</li>               
+</ul>
     <header id="Home">
 <ul>
-	<li id="link"><a href="#Home" >Home</a></li>
-	<li  id="link"><a href="#aboutCont">About Me</a></li>
+	<li id="link"><a  href="#Home">Home</a></li>
+	<li  id="link"><a  href="#aboutCont">About Me</a></li>
 	<li id="link"><a href="#train">Training</a></li>
-    <li id="link"><a href="#Diet">Diet</a></li>
-    <li id="link"><a href="#suppliment">Suppliments</a></li>
+    <li id="link"><a  href="#Diet">Diet</a></li>
+    <li id="link"><a  href="#suppliment">Suppliments</a></li>
 	<li id="link" class="contact"><a href="mailto:brock@blackbetbrock.com"></a></li>
 </ul>
         </header>
@@ -57,7 +61,6 @@ So thanks again for visiting! Please check out the rest of my page, I hope you e
 </div> 
     
 <div id="train" class="box">
-<div class="wrapper">
 
 <ul id="testCon">
 
@@ -78,11 +81,11 @@ So thanks again for visiting! Please check out the rest of my page, I hope you e
 </li></button>
 
 </ul>
-<section>
+<div id="section">
 <h1 id="name" style="font-family: 'Open Sans Condensed', sans-serif;">Training</h1>
 <hr size="2" width="50%" color="#d89b00">
 <p id="txtwrp">To begin, I want to say I AM NOT A TRAINER!!! This is not meant to be a program I'm recommending for anyone to just try. I've spent the past 6 years training this way and it has taken me a long time to find what works best for me and is also enjoyable to do 6-7 days a week! The purpose of this section is simply to show transparency in my workouts and show that there is no SHORT CUTS to getting results, you have to WORK for them! So here we go!</p>
-</section>
+
 </div>
 </div>     
 <div id="Diet" class="box">
@@ -197,6 +200,7 @@ Level 1 Protein Shake
 
 </footer>
 </div>
+</div>
 
 <script>
 function p90(){
@@ -211,6 +215,21 @@ document.getElementById("txtwrp").innerHTML= "The whole point to any workout pro
 function que(){
 document.getElementById("name").innerHTML="Questions?"
 document.getElementById("txtwrp").innerHTML= "As i stated before, i'm not a personal trainer. I'm just a guy who figured it out through trial and error. I made mistakes and i learned from them. I'd love to help others skip the mistakes i made in my training and help anyone reach their goals! Along with a good exercise program, your diet is key to getting the best results possible. So check out the Diet Tab for more info on how proper diet will lead to awesome results!!! I will post in the Calendar tab what workouts i'll be doing so you may follow long. If you'd like more information on anything training related or just have specific questions please click the email tab at the top right and i'll answer you as soon as i can!";}
+
+var val = false;
+function menu(){
+if(val == false){
+ document.querySelector("#Home").style.display = "block";  
+        val = true
+}else{
+close();
+}
+
+}
+    function close(){
+    document.querySelector("#Home").style.display = "none";
+    val = false;
+    }
 </script>
 </body>
 </html>

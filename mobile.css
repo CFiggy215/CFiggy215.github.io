@@ -3,7 +3,23 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 background-color: #303030;
 }
+
 /*********Mobile Header**********/
+#Home{
+display: none;
+}
+.mobile_menu{
+background-color: #fff;
+padding: 0;
+
+}
+
+.mobile_menu button{
+margin-right: 65%;
+background-color: #fff;
+
+}
+
 header{
 background-color: #303030;
 padding: .03rem;
