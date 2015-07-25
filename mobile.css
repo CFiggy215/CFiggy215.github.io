@@ -3,7 +3,7 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 background-color: #303030;
 }
-
+.menu{background-image: url('images/icon_menu.jpg'); background-position: center; width: 20px; height: 20px;} 
 /*********Mobile Header**********/
 #Home{
 display: none;
@@ -174,3 +174,5 @@ width:2.5em ; height: 2.5em; float: right; margin: 11.5em 1em 0 0;
 
 
 /*********Mobile Footer**********/
+.up{width: 100%; background-color: #303030;  position: fixed; margin-top:150%;  text-align: center; padding-bottom: 20rem;}
+.up a {color: #fff; text-decoration: none;}

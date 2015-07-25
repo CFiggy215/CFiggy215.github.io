@@ -5,7 +5,7 @@ margin: auto;
 
 }
 
-.mobile_menu{display: none;}
+.mobile_menu{display: none; transition: display 400ms;}
 /**********HEADER*********/
 
 ul{
@@ -157,17 +157,18 @@ opacity: 1.0; border: 1.8px solid #806f2d;    border-radius: 10px; color: #806f2
 
 
 
-.wrapper{width: 100%; height: 45rem;}
+.wrapper{width: 100%; height: 80rem;}
 #Bkg1{background:url(images/20150711_115937.jpg); background-position: center; }
 #Bkg2{background:url(images/20150711_115938.jpg); background-position: center; }
 #Bkg3{background:url("images/box3imgsm.jpg"); background-position: center; }
 #Bkg4{background:url("images/box4imgsm.jpg"); background-position: center; }
 #testCon{ 
-    background-color: blue;
+background-color: #fff;
 float: left;  
 display: inline-block;
 margin: 0; 
 padding-top: 0;
+padding-left: 2.5rem;
 width: 58%; 
 height: 45rem; 
 text-align: center; 
@@ -192,7 +193,7 @@ transition: opacity linear 400ms;
 #name{
 text-align: center;
 }
-#txtwrp{ background-color: red; width:25rem;    margin: auto; color: #fff; font-family: arial; text-align: center; letter-spacing: .1em;}
+#txtwrp{ width:25rem;    margin: auto; color: #fff; font-family: arial; text-align: center; letter-spacing: .1em;}
 #section{ display: inline-block; float: left; width: 30rem; height: 41%; padding-top: 5rem; margin-right: 0; margin: auto;}
 }
 hr { 
@@ -211,11 +212,12 @@ padding-top: .3%;
 }
 
 #meal{
-float: right;
-padding-right: 5%;
-padding-left: 5%;
+float: left;
+padding-right: 7rem;
+    padding-left: 7rem;
+
 width: 30rem;
-height: 100%;
+heigh: 100%;
 }
 ol{margin-left: 0; padding-left: .2rem; border-radius: 15px; background-image: url("images/texture.jpg");}
 #meal li{
@@ -273,3 +275,11 @@ opacity:1.5;
     opacity:0.4;
     color: #fff;
 }
+#supplement{height: 50rem;}
+#supcont{ text-align: center; margin-top: 5%; display: inline-block; width: 40%; margin-left: 5%;float: left;}
+#suppic{  margin-top: 7%; width: 35rem; float: left; height:40rem; margin-left: 10%;}
+
+.supbtn{ margin-left: 35rem;}
+.up{background-color: #303030;  position: fixed; }
+.up a:hover{padding-left: 1rem; transition: padding-left 200ms;}
+.up a{background-color: #303030;color: #fff; text-decoration: none; padding: 10px 10px 10px 10px;}

@@ -4,6 +4,7 @@
 <head>
 <title>Test Form</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script src="javascript/script.js"></script>
 <link rel="stylesheet" media="(max-width: 800px)" href="mobile.css">
 <link rel="stylesheet" media="(min-width: 800px)" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -16,7 +17,7 @@
 <div class="main">
 <ul class="mobile_menu">
 <li>
-<button onclick="menu()" class="menu">Menu</button>   
+<button onclick="menu()" class="menu"></button>   
 </li>               
 </ul>
     <header id="Home">
@@ -25,10 +26,13 @@
 	<li  id="link"><a  href="#aboutCont">About Me</a></li>
 	<li id="link"><a href="#train">Training</a></li>
     <li id="link"><a  href="#Diet">Diet</a></li>
-    <li id="link"><a  href="#suppliment">Suppliments</a></li>
+    <li id="link"><a  href="#supplement">Suppliments</a></li>
 	<li id="link" class="contact"><a href="mailto:brock@blackbetbrock.com"></a></li>
 </ul>
         </header>
+<div class="up">
+    <a href="#Home">&#x25B2;</a>
+    </div>
 <div id="splashPg" class="box">
 <div id="clr">
     <img id="logo" src="images/BlackBeltBrock_Logo.png">  
@@ -91,12 +95,14 @@ So thanks again for visiting! Please check out the rest of my page, I hope you e
 <div id="Diet" class="box">
 <div id="MW">
 <h2>My Diet</h2>
+    <hr size="2" width="40%" color="#d89b00">
 <p>
 Below I will explain my typical daily diet. Day to day life may alter this but 90% of the time this is what I eat. Though I like pizza and enjoy the occasional adult beverage I don’t restrict myself from the simple pleasures of life. If your goal is to be on stage and compete in any kind of body building show you need to have another level of discipline with the foods you are eating to reach your goals. I don't plan to be stepping on stage anytime soon. I eat this way so I can feel good throughout the day, have effective workouts and to practice karate at a high level! I'm not saying this is the best diet on earth, these are just the foods I enjoy eating on a regular basis that allow me to perform at my best!
     </p>
 <h2>   
 DON’T DO EVERYTHING AT ONE TIME!
 </h2> 
+    <hr size="2" width="40%" color="#d89b00">
 <p>
 If you try to change your entire diet right out of the gate, you'll find out very quickly just how tough it is to do so. So start slow, make 1 good change a week. The biggest and best change you can make is to eat a good balance breakfast every morning. I know what you're thinking, "I don't have time" is the biggest one, the second one is "I'm not hungry in the morning" Understand, the reason you don't feel hungry in the morning, is your body is in a "fasted" state. We sleep for about 7-8 hours a night with no food, so our body has begun to break down our muscle tissue for energy. You NEED to get out of the fasted state in the morning as soon as possible. So one thing I highly recommend to do is take a Protein Shake first thing in morning! LEVEL-1 from 1stphorm is what I call, "The Breakfast Excuse Destroyer" it's one of the big tasting shakes I've ever had and it will give your body what it needs to start your day off right! Shake it; Drink it; Ready to Go!!!
 <br>
@@ -180,8 +186,22 @@ Level 1 Protein Shake
 <div id="imcut">
    
 </div>
-<div id="suppliment" class="box">
-    
+<div id="supplement" class="box">
+<div id="supcont">
+<h2>1stphorm</h2>
+    <hr size="2" width="40%" color="#d89b00">
+<p>
+I found this company back in October 2014 and I've been using their products ever since! While 1stphorm's products are some of the best I've ever used, more than that, this company stands for something. Their message is about doing your absolute best and that doesn't mean you have to be a bodybuilder or a fitness model to use this product line. They want to change the current fitness industry into what it should be about, DOING THE BEST WITH WHAT YOU HAVE! I'm not a fitness model or a sponsored bodybuilder, I'm just a regular guy with a 9-5 job, I enjoy working out, living a healthy lifestyle and also trying to motivate others to make a positive change in their life! That is what this company stands for, being the best YOU that you can be and inspire others to do the same!!!
+
+1stphorm has a "Never Settle" attitude. When they create a product, they want it to be the BEST product on the market! All their products are made in an FDA inspected facility. Meaning, when you look at the back of their products and read the nutritional facts, you can be confident you're getting 100% of what is on the label! They also offer a 110% money back guarantee, if you are not 100% satisfied with any of their products they will refund you the whole purchase PLUS 10% because they are that confident in the products they've made. If you are interested in purchasing any 1stphorm products, use the link on my page and you'll receive FREE SHIPPING on your order! If you have any questions about any of their products, please send me an email and I'll answer any questions that you have!</p>
+</div> 
+ 
+<div>
+<img id="suppic" src="images/post-workout-stack-344px-394px.png" alt="bottle of 1st Phorm supplement">  
+</div>
+       <div id="linkpg" class="supbtn">
+<a href="http://blackbeltbrock.1stphorm.com" id="link">Visit 1stPhorm</a>
+    </div>
 </div>
 <div id="footer" class="box">
 <footer>
@@ -190,7 +210,7 @@ Level 1 Protein Shake
 <li  id="linkft"><a href="#aboutCont">About Me</a></li>
 <li id="linkft"><a href="#train">Training</a></li>
 <li id="linkft"><a href="#Diet">Diet</a></li>
-<li id="linkft"><a href="#suppliment">Suppliments</a></li>
+<li id="linkft"><a href="#supplement">Suppliments</a></li>
 <li id="linkft"><a href="mailto:brock@blackbetbrock.com">Contact</a></li>
 </ul>
 <p class="copyRight">&copy; <i>BLack Belt Brock</i></p>
@@ -201,36 +221,6 @@ Level 1 Protein Shake
 </footer>
 </div>
 </div>
-
-<script>
-function p90(){
-document.getElementById("name").innerHTML="P90X/P90X2"
-document.getElementById("txtwrp").innerHTML= "My journey began with popping in the first disk to a fitness program that changed my life; P90X. I had a hard time going to a gym in the past because of the intimidating environment most gyms had. I was laughed at, questioned why I was there and that I was wasting my time. Needless to say, I didn't want to work out at that gym anymore! So I started P90X at home. Fast forward about 9 months, I completed 3 rounds of P90X and I got hooked on working out at home and enjoyed doing the program! I've continued to do home workouts for 6 year now with a few sessions at local gyms, but about 90% of my workouts at home. I currently follow the P90X2 program, which builds off of the original P90X just with more athletic training!";}
-function wV(){
-document.getElementById("name").innerHTML="Weighted Vest"
-document.getElementById("txtwrp").innerHTML= "AGAIN, PLEASE KNOW I'M NOT A TRAINER AND DO NOT RECOMMENDING THIS STYLE OF TRAINING FOR JUST ANYONE IN THIS SECTION!!! I say this, because after doing P90X for about 2 years, i decided i wanted to increase the intensity with weighted vest and wrist weights. The added weight from these items will add extra stress to the body and if you don't train with proper form you may end up hurting yourself. I worked my way up from an 8lb weight vest and gradually over time increased the weight as my body became accustomed to the weight. I currently train with 40lbs on my weighted vest and also wear two 2.5lb wrist weights. I want to say i don't believe this is a necessary training method to achieve your goals. I personally enjoy this style because I've done it for so long and enjoy the challenge!";}
-function phil(){
-document.getElementById("name").innerHTML="Philosophy"
-document.getElementById("txtwrp").innerHTML= "The whole point to any workout program should come down to this, why are you doing it? If you're training JUST to lose weight and to look good, while it's great to be in shape and we all want to look our best, this should be a very small reason to train. Instead, workout because you are becoming healthier. Don't workout to impress others, instead impress yourself. Push yourself to do the things you thought you'd never be able to do, try to see what you are truly capable of! Let's face it, working out isn't easy, it's tough and some days will be harder than others. If you are gonna do something this difficult for others instead of yourself, it'll become far more challenging. The best part is if you focus on making yourself better, for yourself, the other stuff (The Looks) will come naturally!";}
-function que(){
-document.getElementById("name").innerHTML="Questions?"
-document.getElementById("txtwrp").innerHTML= "As i stated before, i'm not a personal trainer. I'm just a guy who figured it out through trial and error. I made mistakes and i learned from them. I'd love to help others skip the mistakes i made in my training and help anyone reach their goals! Along with a good exercise program, your diet is key to getting the best results possible. So check out the Diet Tab for more info on how proper diet will lead to awesome results!!! I will post in the Calendar tab what workouts i'll be doing so you may follow long. If you'd like more information on anything training related or just have specific questions please click the email tab at the top right and i'll answer you as soon as i can!";}
-
-var val = false;
-function menu(){
-if(val == false){
- document.querySelector("#Home").style.display = "block";  
-        val = true
-}else{
-close();
-}
-
-}
-    function close(){
-    document.querySelector("#Home").style.display = "none";
-    val = false;
-    }
-</script>
 </body>
 </html>
 
