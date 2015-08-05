@@ -216,7 +216,7 @@ float: left;
 padding-right: 7rem;
     padding-left: 7rem;
 
-width: 30rem;
+width: 27rem;
 heigh: 100%;
 }
 ol{margin-left: 0; padding-left: .2rem; border-radius: 15px; background-image: url("images/texture.jpg");}
@@ -277,9 +277,9 @@ opacity:1.5;
 }
 #supplement{height: 50rem;}
 #supcont{ text-align: center; margin-top: 5%; display: inline-block; width: 40%; margin-left: 5%;float: left;}
-#suppic{  margin-top: 7%; width: 35rem; float: left; height:40rem; margin-left: 10%;}
+#suppic{  margin-top: 7%; width: 30rem; float: left; height:35rem; margin-left: 5%;}
 
-.supbtn{ margin-left: 35rem;}
+.supbtn{ margin-left: 35rem; clear: both;}
 .up{background-color: #303030;  position: fixed; }
 .up a:hover{padding-left: 1rem; transition: padding-left 200ms;}
 .up a{background-color: #303030;color: #fff; text-decoration: none; padding: 10px 10px 10px 10px;}
