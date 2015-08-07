@@ -277,3 +277,6 @@ opacity:1.5;
 .up{background-color: #303030;  position: fixed; }
 .up a:hover{padding-left: 1rem; transition: padding-left 200ms;}
 .up a{background-color: #303030;color: #fff; text-decoration: none; padding: 10px 10px 10px 10px;}
+#nonePG{
+display: none;
+}

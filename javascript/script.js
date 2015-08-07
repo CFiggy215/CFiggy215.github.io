@@ -15,7 +15,7 @@ document.getElementById("txtwrp").innerHTML= "As i stated before, i'm not a pers
 var val = false;
 function menu(){
 if (val === false) {
- document.querySelector("#Home").style.display = "block";  
+ document.querySelector("#Home").style.display = "block";   
         val = true
 }else{
 close();
